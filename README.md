@@ -2,6 +2,39 @@
 
 ---
 
+# 프로젝트 구조
+
+```plaintext
+├── java
+│ └── store
+│     ├── Application.java
+│     ├── controller
+│     │ ├── CartManager.java
+│     │ └── StoreManager.java
+│     ├── domain
+│     │ ├── Cart.java
+│     │ ├── CartItem.java
+│     │ ├── Product.java
+│     │ ├── Promotion.java
+│     │ └── Receipt.java
+│     ├── handler
+│     │ ├── ErrorHandler.java
+│     │ ├── ProductsFileHandler.java
+│     │ ├── PromotionsFileHandler.java
+│     │ └── StocksFileHandler.java
+│     ├── service
+│     │ └── PaymentService.java
+│     └── view
+│         ├── InputView.java
+│         └── OutputView.java
+└── resources
+├── products.md
+├── promotions.md
+└── stocks.md
+```
+
+---
+
 # 구현할 기능 목록
 
 ## 🗂️ Domain
